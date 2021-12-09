@@ -53,7 +53,7 @@ public class TestMernCrud {
     pause(7000);
     driver.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td")).click();
     try {
-      assertEquals("Dacia", driver.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td")).getText());
+      assertEquals("Oskar Sierra", driver.findElement(By.xpath("//div[@id='root']/div/div[2]/table/tbody/tr/td")).getText());
     } catch (Error e) {
       verificationErrors.append(e.toString());
     }
